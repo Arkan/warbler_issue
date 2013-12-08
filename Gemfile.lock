@@ -1,8 +1,16 @@
+GIT
+  remote: git@github.com:lostisland/faraday.git
+  revision: 09202e298ab8a3f3a5d03a378dc600b431fd6993
+  specs:
+    faraday (0.9.0.rc6)
+      multipart-post (~> 1.2.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
     jruby-jars (1.7.8)
     jruby-rack (1.1.13.3)
+    multipart-post (1.2.0)
     rake (10.1.0)
     rubyzip (1.0.0)
     warbler (1.4.0)
@@ -15,4 +23,5 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  faraday!
   warbler
